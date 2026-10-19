@@ -45,7 +45,7 @@
 
      "num_epochs": 400,
      "batch_size": 4,
-     "gpu_num": 1,
+     "gpu_num": 0,
      "map_depend": false,
      "std_depend": false,
      "truncate values": true,
@@ -82,27 +82,27 @@
      "use_gpu": true,
      "gpu_num": 0,
      "truncate values": true,
-     "model_path_band_RED": "./models/weights/batch_X_time_XXXX-XX-XX-XX-XX-XX-XXXXXX/",
-     "model_path_band_NIR": "./models/weights/batch_X_time_XXXX-XX-XX-XX-XX-XX-XXXXXX/",
+     "model_path_band_RED": "./models/weights/images_32_batchsize_4_epoch_400_RED/",
+     "model_path_band_NIR": "./models/weights/images_32_batchsize_4_epoch_400_NIR/",
      "pth_epoch_num_RED": 0,
      "pth_epoch_num_NIR": 0,
      "**pth_epoch_num": "if use newest pth, write 0",
-     "test_data_path": "",
+     "test_data_path": "./probav_data/",
      "generate_visual_imgs": true,
      "submission_path": "./submission",
      "visual_imgs_path": "./submission_vis/"
   },
 
   "val":{
-     "use_gpu": false,
-     "gpu_num": 0,
+     "use_gpu": true,
+     "gpu_num": 1,
      "truncate values": true,
-     "model_path_band_RED": "./models/weights/batch_X_time_XXXX-XX-XX-XX-XX-XX-XXXXXX/",
-     "model_path_band_NIR": "./models/weights/batch_X_time_XXXX-XX-XX-XX-XX-XX-XXXXXX/",
+     "model_path_band_RED": "./models/weights/images_32_batchsize_4_epoch_400_RED/",
+     "model_path_band_NIR": "./models/weights/images_32_batchsize_4_epoch_400_NIR/",
      "pth_epoch_num_RED": 0,
      "pth_epoch_num_NIR": 0,
      "**pth_epoch_num": "if use newest pth, write 0",
-     "val_data_path": "",
+     "val_data_path": "./probav_data/",
      "save_fig_name": "./val_plot.png"
   }
 }
