@@ -5,6 +5,7 @@ from glob import glob
 
 import skimage
 from zipfile import ZipFile
+import matplotlib.pyplot as plt
 
 import heapq
 import json

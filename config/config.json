@@ -80,7 +80,7 @@
 
   "testing": {
      "use_gpu": true,
-     "gpu_num": 0,
+     "gpu_num": 1,
      "truncate values": true,
      "model_path_band_RED": "./models/weights/images_32_batchsize_4_epoch_400_RED/",
      "model_path_band_NIR": "./models/weights/images_32_batchsize_4_epoch_400_NIR/",
